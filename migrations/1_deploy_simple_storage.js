@@ -1,5 +1,5 @@
 const SimpleStorage  = artifacts.require("SimpleStorage");
 
 module.exports = deployer => {
-  deployer.deploy(SimpleStorage, 0);
+  deployer.deploy(SimpleStorage);
 };
