@@ -84,8 +84,8 @@ npm run restart-sandbox
 
   module.exports = {
     networks: {
-      babylonnet: {
-        host: "https://babylonnet.smartpy.io",
+      carthagenet: {
+        host: "https://carthagenet.smartpy.io",
         port: 443,
         network_id: "*",
         secret,
@@ -105,8 +105,8 @@ npm run restart-sandbox
 
   module.exports = {
     networks: {
-      babylonnet: {
-        host: "https://babylonnet.smartpy.io",
+      carthagenet: {
+        host: "https://carthagenet.smartpy.io",
         port: 443,
         network_id: "*",
         secretKey: "edsk...", // private key
