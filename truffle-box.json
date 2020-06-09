@@ -8,7 +8,7 @@
     "Compile": "truffle compile",
     "Migrate": "truffle migrate",
     "Test contracts": "truffle test",
-    "Start sandbox": "npm run start-sandbox",
+    "Start sandbox": "npm run start-sandbox"
   },
   "hooks": {
     "post-unpack": "npm install"
