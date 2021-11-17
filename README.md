@@ -67,7 +67,7 @@ npm run start-sandbox
 
 ## Interacting with Live Networks
 
-- A test faucet key can be obtained from https://faucet.tzalpha.net/. Once saved, it can be imported inside `truffle-config.js`:
+- A test faucet key can be obtained from [Faucet](https://teztnets.xyz/#protocol-teztnets). Once saved, it can be imported inside `truffle-config.js`:
 
   ```javascript
 
@@ -75,8 +75,8 @@ npm run start-sandbox
 
   module.exports = {
     networks: {
-      carthagenet: {
-        host: "https://carthagenet.smartpy.io",
+      granadanet: {
+        host: "https://granadanet.smartpy.io",
         port: 443,
         network_id: "*",
         secret,
@@ -96,8 +96,8 @@ npm run start-sandbox
 
   module.exports = {
     networks: {
-      carthagenet: {
-        host: "https://carthagenet.smartpy.io",
+      granadanet: {
+        host: "https://granadanet.smartpy.io",
         port: 443,
         network_id: "*",
         secretKey: "edsk...", // private key
@@ -108,6 +108,6 @@ npm run start-sandbox
   ```
 
   ```shell
-  truffle migrate --network carthagenet
-  truffle test --network carthagenet
+  truffle migrate --network granadanet
+  truffle test --network granadanet
   ```

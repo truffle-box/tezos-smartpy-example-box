@@ -11,20 +11,20 @@ module.exports = {
       secretKey: alice.sk,
       type: "tezos"
     },
-    carthagenet: {
-      host: "https://carthagenet.smartpy.io",
-      port: 443,
-      network_id: "*",
-      type: "tezos"
-    },
     mainnet: {
       host: "https://mainnet.smartpy.io",
       port: 443,
       network_id: "*",
       type: "tezos"
     },
-    zeronet: {
-      host: "https://zeronet.smartpy.io",
+    granadanet: {
+      host: "https://granadanet.smartpy.io",
+      port: 443,
+      network_id: "*",
+      type: "tezos"
+    },
+    hangzhounet: {
+      host: "https://hangzhounet.smartpy.io",
       port: 443,
       network_id: "*",
       type: "tezos"
